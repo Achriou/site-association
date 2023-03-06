@@ -44,6 +44,47 @@ html:not(.no-js) [data-aos^=fade][data-aos^=fade].aos-animate {
     -webkit-transform: none;
     transform: none;
 }
+span.gravidic{
+    background-color: #7d5a95;
+}
+.stage {
+    padding:40px;
+    text-align:center;}
+    .stage a {
+      line-height:1em;
+      letter-spacing:0.06em;
+      font-family: 'Lato', sans-serif;
+      font-weight:normal;
+      font-size:16px;
+      text-decoration:none;
+      color:#fff;
+      background:#231f20;
+      display:inline-block;
+      padding:15px 12px 15px 15px;
+      transition:background 200ms;
+      border-radius:4px;
+    }
+    .stage a:hover {
+      background:#7d5a95;
+    }
+    .stage a:after {
+      font-family: 'FontAwesome', sans-serif;
+      font-weight:300;
+      content: "\f105";
+      margin-left:20px;
+      color:#e319a7;
+      font-size:18px;
+      vertical-align:middle;
+      transition:color 200ms;
+    }
+    .images img{
+        width:300px;
+    }
+    
+    .stage a:hover:after {
+      color:#231f20;
+    }
+  
 
 #about h1{
     color:black;

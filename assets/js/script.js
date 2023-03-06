@@ -145,6 +145,6 @@ let imgArrays = ["001.jpg","003.jpg","005.jpg","006.jpg","007.png"];
 setInterval(()=> {
 let randomNumber = Math.floor(Math.random() * imgArrays.length);
 
-landingPage.style.backgroundImage  = 'url("/assets/img/'+imgArrays[randomNumber]+ '")';
+landingPage.style.backgroundImage  = 'url("./assets/img/'+imgArrays[randomNumber]+ '")';
 
 }, 2000);
